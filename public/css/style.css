@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: blue; /* Dark blue-grey */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Align items on the main axis with space between them */
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+  }
+  
+  li {
+    padding: 0 20px;
+    justify-content: space-evenly;
+  }
+  
+  #name {
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: black; /* Light grey */
+    font-size: 20px;
+  }
+  
+  
+  /* Header */
+  header {
+    background-color: darkgray; 
+   
+    text-align: center;
+  }
+  
+  
+  img {
+    width: auto;
+    height: 225px;
+  }
+
+  #title {
+    display: flex; /* Use flex display for better alignment */
+    align-items: center; /* Center items vertically */
+    background-color: white;
+    color: black
+  }
+  
+  #icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+  }
+
+  #about {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-size: larger;
+  }
